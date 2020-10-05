@@ -32,7 +32,7 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
         <!-- Sidebar - Brand -->
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ url('/') }}">
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ secure_url('/') }}">
             <div class="sidebar-brand-icon rotate-n-15">
                 <i class="fas fa-book"></i>
             </div>
@@ -44,7 +44,7 @@
 
         <!-- Nav Item - Dashboard -->
         <li class="{{ Request::is('/') ? 'nav-item active' : 'nav-item' }}">
-            <a class="nav-link" href="{{ url('/') }}">
+            <a class="nav-link" href="{{ secure_url('/') }}">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
                 <span>Dashboard</span></a>
         </li>
@@ -54,7 +54,7 @@
 
         <!-- Nav Item - Books -->
         <li class="{{ Request::is('books') ? 'nav-item active' : 'nav-item' }}">
-            <a class="nav-link" href="{{ url('/books') }}">
+            <a class="nav-link" href="{{ secure_url('/books') }}">
                 <i class="fas fa-fw fa-book"></i>
                 <span>Books</span></a>
         </li>

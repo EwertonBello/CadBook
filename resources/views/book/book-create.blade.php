@@ -14,10 +14,10 @@
         @endif
 
         @if(isset($book))
-            <form id="formEdit" name="formEdit" method="POST" action="{{ url("/books/$book->id") }}">
+            <form id="formEdit" name="formEdit" method="POST" action="{{ secure_url("/books/$book->id") }}">
                 @method('PUT')
         @else
-            <form id="formCad" name="formCad" method="POST" action="{{ url('/books') }}">
+            <form id="formCad" name="formCad" method="POST" action="{{ secure_url('/books') }}">
         @endif
             @csrf
             <div class="form-group">

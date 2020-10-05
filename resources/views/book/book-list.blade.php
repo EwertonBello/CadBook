@@ -55,13 +55,13 @@
                         <td>{{$user->name}}</td>
                         <td>{{$book->price}}</td>
                         <td class="d-flex justify-content-center">
-                            <a href="{{ url("/books/$book->id") }}">
+                            <a href="{{ secure_url("/books/$book->id") }}">
                                 <button class="btn btn-dark ml-1">Visualizar</button>
                             </a>
-                            <a href="{{ url("/books/$book->id/edit") }}">
+                            <a href="{{ secure_url("/books/$book->id/edit") }}">
                                 <button class="btn btn-primary ml-1">Editar</button>
                             </a>
-                            <a href="{{ url("/books/$book->id") }}" class="deleteBook" data-id="{{ $book->id }}">
+                            <a href="{{ secure_url("/books/$book->id") }}" class="deleteBook" data-id="{{ $book->id }}">
                                 <button class="btn btn-danger ml-1">Excluir</button>
                             </a>
                         </td>
