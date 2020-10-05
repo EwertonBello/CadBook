@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\API\V1;
 
 use App\Http\Controllers\Controller;
+use App\Http\Resources\BookResource;
 use App\Models\Book;
 use Illuminate\Http\Request;
 
@@ -23,7 +24,7 @@ class BookApiController extends Controller
      */
     public function index()
     {
-        return $this->book->all();
+        return BookResource::collection($this->book->all());
     }
 
     /**
@@ -45,7 +46,7 @@ class BookApiController extends Controller
      */
     public function show(Book $book)
     {
-        return $book;
+        return new BookResource($book);
     }
 
     /**
