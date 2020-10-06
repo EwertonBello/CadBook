@@ -11,7 +11,7 @@
         <div class="row">
 
             <!-- Quantidade de Livros Card -->
-            <div class="col-xl-3 col-md-6 mb-4">
+            <a class="col-xl-3 col-md-6 mb-4" href="{{ url('/books') }}">
                 <div class="card border-left-primary shadow h-100 py-2">
                     <div class="card-body">
                         <div class="row no-gutters align-items-center">
@@ -25,7 +25,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </a>
 
             <!-- Total em Livros Card -->
             <div class="col-xl-3 col-md-6 mb-4">
@@ -58,7 +58,7 @@
                                 </div>
                             </div>
                             <div class="col-auto">
-                                <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                                <i class="fas fa-users fa-2x text-gray-300"></i>
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
                                 <div class="h5 mb-0 font-weight-bold text-gray-800">{{ $widget['total_pages'] }} Páginas</div>
                             </div>
                             <div class="col-auto">
-                                <i class="fas fa-comments fa-2x text-gray-300"></i>
+                                <i class="fas fa-file-alt fa-2x text-gray-300"></i>
                             </div>
                         </div>
                     </div>
