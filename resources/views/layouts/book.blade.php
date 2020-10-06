@@ -16,6 +16,8 @@
 
     <!-- Custom styles for this template-->
     <link href="{{ secure_asset('css/sb-admin-2.min.css') }}" rel="stylesheet">
+    <!-- Book Global -->
+    <link href="{{ secure_asset('css/book-main.css') }}" rel="stylesheet">
 
     <!-- Custom styles for this page -->
     <link href="{{ secure_asset('vendor/datatables/dataTables.bootstrap4.min.css') }}" rel="stylesheet">
