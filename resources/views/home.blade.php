@@ -11,7 +11,7 @@
         <div class="row">
 
             <!-- Quantidade de Livros Card -->
-            <a class="col-xl-3 col-md-6 mb-4" {{ secure_url('/books') }}>
+            <a class="col-xl-3 col-md-6 mb-4" href="{{ secure_url('/books') }}">
                 <div class="card border-left-primary shadow h-100 py-2">
                     <div class="card-body">
                         <div class="row no-gutters align-items-center">
