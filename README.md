@@ -13,12 +13,12 @@ The app is running in (https://cadbook.herokuapp.com/).
 
 ## API
 
-### - Endpoints  
+### - Endpoints:  
 
-Books: (https://cadbook.herokuapp.com/api/v1/books/).  
-Book: (https://cadbook.herokuapp.com/api/v1/books/{ID}). 
+[GET] Books: (https://cadbook.herokuapp.com/api/v1/books/).  
+[GET] Book: (https://cadbook.herokuapp.com/api/v1/books/{ID}). 
 
-### - Clients  
+### - Clients:  
 
 Dev: __Paulo Thiago__ (https://github.com/pgThiago).  
 Tecnologia: ReactNative (https://reactnative.dev/).  
