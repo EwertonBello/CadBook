@@ -24,6 +24,7 @@ Dev: __Paulo Thiago__ (https://github.com/pgThiago).
 Tecnologia: ReactNative (https://reactnative.dev/).  
 Repo: (https://github.com/pgThiago/librarian).  
 <hr>  
+
 Dev: __Ewerton Belo__ (https://github.com/EwertonBello).  
 Tecnologia: Sapper(Svelte) (https://sapper.svelte.dev/).  
 Demo: (https://cadbooksvelte.netlify.app/).  
